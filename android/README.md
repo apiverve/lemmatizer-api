@@ -26,7 +26,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.apiverve:lemmatizer-api:1.1.13'
+    implementation 'com.github.apiverve:lemmatizer-api:1.1.14'
 }
 ```
 
@@ -47,7 +47,7 @@ TextLemmatizerAPIClient client = new TextLemmatizerAPIClient("YOUR_API_KEY");
 try {
     // Prepare request parameters
     Map<String, Object> parameters = new HashMap<>();
-    parameters.put("text", "");
+    parameters.put("text", "The cats ran from door to door");
 
     // Execute the request
     APIResponse response = client.execute(parameters);
