@@ -221,8 +221,9 @@ from apiverve_textlemmatizer.apiClient import LemmatizerAPIClient
 
 api = LemmatizerAPIClient("[YOUR_API_KEY]")
 
+query = { "text": "The cats ran from door to door" }
+
 try:
-    query = { "text": "The cats ran from door to door" }
     result = api.execute(query)
     print(result)
 finally:
