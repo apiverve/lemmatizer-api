@@ -4,23 +4,35 @@ declare module '@apiverve/lemmatizer' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface lemmatizerResponse {
     status: string;
     error: string | null;
     data: TextLemmatizerData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface TextLemmatizerData {
-      found:  number;
+      found:  number | null;
       lemmas: Lemmas;
   }
   
   interface Lemmas {
-      cat:  number;
-      ran:  number;
-      door: number;
+      cat:  number | null;
+      ran:  number | null;
+      door: number | null;
   }
 
   export default class lemmatizerWrapper {
