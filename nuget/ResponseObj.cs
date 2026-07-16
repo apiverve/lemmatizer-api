@@ -25,12 +25,15 @@ namespace APIVerve.API.TextLemmatizer
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
     {
         [JsonProperty("found")]
-        public long Found { get; set; }
+        public long? Found { get; set; }
 
         [JsonProperty("lemmas")]
         public Lemmas Lemmas { get; set; }
@@ -39,12 +42,24 @@ namespace APIVerve.API.TextLemmatizer
     public partial class Lemmas
     {
         [JsonProperty("cat")]
-        public long Cat { get; set; }
+        public long? Cat { get; set; }
 
         [JsonProperty("ran")]
-        public long Ran { get; set; }
+        public long? Ran { get; set; }
 
         [JsonProperty("door")]
-        public long Door { get; set; }
+        public long? Door { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
