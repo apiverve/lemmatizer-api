@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/lemmatizer",
-  "version": "1.2.0",
-  "description": "Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text.",
+  "version": "1.2.2",
+  "description": "Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "lemmatizer", "lemmatizer api", "lemmatizer tool", "lemmatizer software", "lemmatizer service"
+    "text lemmatizer api", "lemmatize text", "word lemmatization", "find lemma of word", "convert words to root form"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/lemmatizer-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/lemmatizer?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/lemmatizer?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
