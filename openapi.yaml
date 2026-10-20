@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Text Lemmatizer
   description: >-
-    Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized
-    text.
+    Text Lemmatizer reduces inflected words in submitted text down to their
+    dictionary base forms. It confirms when valid lemmas exist, while paid plans
+    return full word-by-word mappings.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/lemmatizer:
     post:
-      summary: Lemmatize Text
+      summary: Text Lemmatizer
       description: Lemmatize text
       operationId: lemmatizer
       parameters: []

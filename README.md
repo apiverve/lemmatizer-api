@@ -1,13 +1,13 @@
-# [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text.
+Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.
 
 The Text Lemmatizer API provides a simple, reliable way to integrate text lemmatizer functionality into your applications. Built for developers who need production-ready text lemmatizer capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-POST-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -167,7 +167,7 @@ go get github.com/apiverve/lemmatizer-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/lemmatizer](https://docs.apiverve.com/ref/lemmatizer)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -231,7 +231,7 @@ A real response from the Text Lemmatizer API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
