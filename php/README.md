@@ -1,6 +1,6 @@
 # Text Lemmatizer API - PHP Package
 
-Lemmatizer is a simple tool for lemmatizing text. It returns the lemmatized text.
+Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.
 
 ## Installation
 
@@ -86,11 +86,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/lemmatizer?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/lemmatizer?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/lemmatizer?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/lemmatizer?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/lemmatizer?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/lemmatizer?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
