@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/lemmatizer",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.",
   "main": "index.js",
   "types": "index.d.ts",
