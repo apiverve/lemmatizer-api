@@ -4,6 +4,6 @@ require_relative "apiverve_lemmatizer/client"
 
 module APIVerve
   module Lemmatizer
-    VERSION = "1.2.3"
+    VERSION = "1.2.4"
   end
 end
