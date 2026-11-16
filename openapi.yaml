@@ -4,7 +4,7 @@ info:
   description: >-
     Text Lemmatizer reduces inflected words in submitted text down to their
     dictionary base forms. It confirms when valid lemmas exist, while paid plans
-    return full word-by-word mappings.
+    return each lemma with its occurrence count.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support

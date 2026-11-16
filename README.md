@@ -1,6 +1,6 @@
 # [Text Lemmatizer API](https://apiverve.com/marketplace/lemmatizer?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.
+Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return each lemma with its occurrence count.
 
 The Text Lemmatizer API provides a simple, reliable way to integrate text lemmatizer functionality into your applications. Built for developers who need production-ready text lemmatizer capabilities without the complexity of building from scratch.
 
