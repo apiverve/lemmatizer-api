@@ -1,7 +1,7 @@
 Text Lemmatizer API
 ============
 
-Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.
+Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return each lemma with its occurrence count.
 
 
 [![NuGet version](https://img.shields.io/nuget/v/APIVerve.API.TextLemmatizer.svg)](https://www.nuget.org/packages/APIVerve.API.TextLemmatizer)
