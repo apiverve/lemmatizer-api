@@ -1,10 +1,10 @@
 [project]
 name = "apiverve-textlemmatizer"
-version = "1.2.5"
+version = "1.2.6"
 authors = [
   { name="APIVerve", email="hello@apiverve.com" },
 ]
-description = "Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings."
+description = "Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return each lemma with its occurrence count."
 keywords = ["text lemmatizer api", "lemmatize text", "word lemmatization", "find lemma of word", "convert words to root form"]
 readme = "README.md"
 requires-python = ">=3.9"
