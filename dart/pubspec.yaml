@@ -1,6 +1,6 @@
 name: apiverve_lemmatizer
-description: "Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings."
-version: 1.2.5
+description: "Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return each lemma with its occurrence count."
+version: 1.2.6
 homepage: https://apiverve.com/marketplace/lemmatizer?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/lemmatizer-api/tree/main/dart
 

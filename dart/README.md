@@ -1,6 +1,6 @@
 # Text Lemmatizer API - Dart/Flutter Client
 
-Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return full word-by-word mappings.
+Text Lemmatizer reduces inflected words in submitted text down to their dictionary base forms. It confirms when valid lemmas exist, while paid plans return each lemma with its occurrence count.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_lemmatizer.svg)](https://pub.dev/packages/apiverve_lemmatizer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_lemmatizer: ^1.2.5
+  apiverve_lemmatizer: ^1.2.6
 ```
 
 Then run:
